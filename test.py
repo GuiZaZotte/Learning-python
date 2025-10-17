@@ -1,5 +1,7 @@
-liste = [1, 2, 3, 4, 5]
-for element in liste:
-    if element == 3:
-        continue
-    print(element)
+def somme(x,y):
+    z=x+y
+    return z
+a = int(input("Premier nombre\n"))
+b = int(input("Deuxième nombre\n"))
+resultat=somme(a,b)
+print(resultat)
