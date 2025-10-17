@@ -1,8 +1,5 @@
-x = 1
-y = 2
-if x == 1 and not y == 2 :
-	print("Oui")
-elif x == 1 and y == 2 :
-	print("OUI")
-else:
-	print("Non")
+liste = [1, 2, 3, 4, 5]
+for element in liste:
+    if element == 3:
+        continue
+    print(element)
